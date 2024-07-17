@@ -1,0 +1,46 @@
+.top{
+  background:#333333;
+  color:white;
+  padding-top:10px;
+}
+.top .icons i{
+  padding:0 7px;
+}
+.bottom img{
+  width:100%;
+}
+.bottom2 ul{
+  display:flex;
+  list-style: none;
+  align-items: baseline;
+}
+.bottom2 ul li{
+  padding:10px;
+}
+.bottom2 input{
+  width:100%;
+  border-radius: 50px;
+  padding:10px 0;
+}
+.bottom2 button{
+  background:red;
+  padding:10px 30px;
+  border-radius:50px;
+  margin:0 20px;
+  color:white;
+}
+.searcha {
+  position:absolute;
+  top:0;
+  right:10px;
+  height:73%;
+  width:50px;
+  background:red;
+  border-radius: 50px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.searcha i{
+  color:white;
+}
