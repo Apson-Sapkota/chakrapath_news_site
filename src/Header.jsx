@@ -62,7 +62,7 @@ function Header() {
                 </li>
               </ul>
             </div>
-            <div className="col-lg-3 position-relative">
+            <div className="col-lg-3 inputs">
               <input
                 type="text"
                 placeholder="खोज्नुहोस्"
@@ -81,6 +81,79 @@ function Header() {
           </div>
         </div>
       </div>
+      <div className="navs">
+      <div className="container">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+  <div className="container">
+   
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon" />
+    </button>
+    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">राजनीति</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">प्रशासन</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">समाज</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">अपराध</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">बिचार</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">अन्तरवार्ता</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">अर्थ</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">विश्व</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">खेल</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">कला/साहित्य</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">सम्पादकीय</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">सूचना प्रविधि</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">स्वास्थ्य, शिक्षा</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">अध्यात्म/दर्शन</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">समसामयिक</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">रोचक खबर</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">चक्रपथ संवाद</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">विविध</a>
+        </li>
+        
+       
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+</div>
+</div>
     </>
   );
 }

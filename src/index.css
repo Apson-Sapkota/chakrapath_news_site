@@ -29,12 +29,21 @@
   margin:0 20px;
   color:white;
 }
+.inputs{
+  position:relative;
+  display:flex;
+  align-items:center;
+
+}
+
 .searcha {
-  position:absolute;
-  top:0;
-  right:10px;
-  height:73%;
-  width:50px;
+ position:absolute;
+ top:50%;
+ right:10px;
+ transform: translateY(-50%);
+  
+  height:45px;
+  width:45px;
   background:red;
   border-radius: 50px;
   display:flex;
@@ -43,4 +52,9 @@
 }
 .searcha i{
   color:white;
+}
+.navs{
+  white-space: nowrap;
+  border-top:1px solid black;
+  border-bottom:1px solid black;
 }
