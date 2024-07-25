@@ -1,3 +1,6 @@
+h1,h2,h3,h4,h5,h6{
+  font-weight:bold;
+}
 .top{
   background:#333333;
   color:white;
@@ -57,4 +60,30 @@
   white-space: nowrap;
   border-top:1px solid black;
   border-bottom:1px solid black;
+}
+.sundar{
+ margin:10px 5px;
+ border-top:3px solid red;
+}
+.boxa{
+  background:#99060B;
+  color:white;
+  border-top-right-radius:30px;
+  border-bottom-right-radius:30px;
+ margin-top:5px;
+}
+.boxb{
+  background:#99060B;
+  color:white;
+  border-top-right-radius:30px;
+  border-bottom-right-radius:30px;
+  width:20%;
+  margin-top:5px;
+}
+.aa .left{
+  border-top:3px solid  #99060B;
+  
+}
+.aa .right{
+  border-top:3px solid  #99060B;
 }
