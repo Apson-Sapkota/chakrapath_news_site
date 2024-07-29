@@ -7,9 +7,9 @@ import Trending from './Trending'
 function App() {
   return (
     <>
-    {/* <Header/>
-    <News1/> */}
-    {/* <News2/> */}
+    <Header/>
+    <News1/>
+    <News2/>
     <Trending/>
     </>
   )
