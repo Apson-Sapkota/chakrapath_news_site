@@ -4,6 +4,7 @@ import News1 from './News1'
 import News2 from './News2'
 import Trending from './Trending'
 import Rajniti from './Rajniti'
+import Aparad from './Aparad'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     <News2/>
     <Trending/>
     <Rajniti/>
+    <Aparad/>
     </>
   )
 }

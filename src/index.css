@@ -100,10 +100,23 @@ h1,h2,h3,h4,h5,h6{
   border-bottom-right-radius:30px;
   color:white;
   margin-bottom: 20px;
+  margin-top:5px;
 }
 .trendingall{
   border-top:3px solid  #99060B;
 }
 .rajnititop{
   border-top:3px solid  #99060B;
+}
+.aparada .left > img{
+  height:400px;
+  object-fit: cover;
+  
+}
+.aparada {
+  border-top:3px solid  #99060B;
+}
+.aparada .leftb img{
+  height:200px;
+  object-fit: cover;
 }
